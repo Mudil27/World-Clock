@@ -13,6 +13,7 @@ let timeZones = {
     adelaide: 'Australia/Adelaide',
     melbourne:'Australia/Melbourne',
     sydney: 'Australia/Sydney',
+    newYork: 'America/New_York'
 }
 
 let chosenTimeZome = timeZones.india;
