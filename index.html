@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Clock</title>
+    <link rel="stylesheet" href="clock.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+  <div class="body">
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">World Clock</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+        </li>
+        
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+      <div class="container my-4 ">
+        <div class="jumbotron bg-dark ">
+          <h1 class="display-4"><b>Current Time is </b>: <span id="time"></span></h1>
+          <p class="lead">A Javascript made World clock displaying the time of a limited number of countries for the time being! </p>
+          <hr>
+          <p class="my-4">Browse the time of any country by clicking the buttons below 👇</p>
+        
+          <button class="btn ourButton btn-primary" type="button" id="india"> India</button>
+          <button class="btn ourButton btn-primary" type="button" id="usa">USA</button>
+          <button class="btn ourButton btn-primary" type="button" id="russia">Russia </button>
+          <button class="btn ourButton btn-primary" type="button" id="canada">Canada</button>
+          <button class="btn ourButton btn-primary" type="button" id="china">China</button>
+          <button class="btn ourButton btn-primary" type="button" id="france">France</button>
+          <button class="btn ourButton btn-primary" type="button" id="melbourne">Melbourne</button>
+          <button class="btn ourButton btn-primary" type="button" id="johannesburg">Johannesburg</button>
+          <button class="btn ourButton btn-primary" type="button" id="adelaide">Adelaide</button>
+          <button class="btn ourButton btn-primary" type="button" id="paris">Paris</button>
+          <button class="btn ourButton btn-primary" type="button" id="sydney">Sydney</button>
+
+          <!-- <select id="selector" class="form-select" aria-label="Default select example">
+            <option selected value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="russia">Russia</option>
+            <option value="china">China</option>
+            <option value="sriLanka">Sri Lanka</option>
+            <option value="paris">Paris</option>
+            <option value="france">France</option>
+            <option value="johannesburg">Johannesburg</option>
+            <option value="adelaide">Adelaide</option>
+            <option value="melbourne">Melbourne</option>
+            <option value="sydney">Sydney</option>
+          </select> -->
+        
+        </div>
+      </div>
+    <script src="clock.js"></script>
+  </div>
+</body>
+</html>
